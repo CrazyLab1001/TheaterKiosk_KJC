@@ -12,7 +12,7 @@ public class Main {
                 System.out.println("Here's your wristband! Drink responsibly.");
             }
             else {
-                System.out.println("No wristband for you! You're under 21!");
+                return;
             }
         }
         else {
